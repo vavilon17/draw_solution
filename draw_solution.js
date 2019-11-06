@@ -15,7 +15,7 @@ function draw(weight, height, padding) {
         }
     }
 
-    //
+    // main function which fills parts of the shape which are not spaces
     function fillShape(left, up) {
         // we stop when reach the middle of the shape
         if (left >= weight / 2 || up >= height / 2) {
@@ -61,7 +61,7 @@ let drawSigns = {
 };
 
 /**
- * Function validates input and returns a velation error message if any.
+ * Function validates input and returns a validation error message if any.
  * Empty string result means there were no any validation errors
  */
 function validate(width, height, padding) {
