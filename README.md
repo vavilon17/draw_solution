@@ -9,3 +9,5 @@ The solution fills the shape with O(weight*height) complexity
 var shape = draw(params.w, params.h, params.p);
 printShape(shape, params.w, params.h);
 ```
+
+EOF
